@@ -15,6 +15,7 @@ struct TextView: View {
                 .font(.system(.body, design: .monospaced))
                 .fontWeight(.light)
                 .multilineTextAlignment(.leading)
+                .foregroundColor(.accentColor)
         }
         .edgesIgnoringSafeArea(.all)
     }

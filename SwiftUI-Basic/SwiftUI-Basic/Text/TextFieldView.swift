@@ -15,19 +15,19 @@ struct TextFieldView: View {
         VStack(spacing: 6) {
             HStack {
                 TextField("사용자 이름", text: $inputValue)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .textFieldStyle(PlainTextFieldStyle())
                     .autocapitalization(.none)
                     .disableAutocorrection(true)
                     
                 
-//                Button(action: {
-//                    self.inputValue = ""
-//                } ) {
-//                    if inputValue != "" {
-//                        Image(systemName: "multiply.circle.fill")
-//                            .foregroundColor(Color.gray)
-//                    }
-//                }
+                Button(action: {
+                    self.inputValue = ""
+                } ) {
+                    if inputValue != "" {
+                        Image(systemName: "multiply.circle.fill")
+                            .foregroundColor(Color.gray)
+                    }
+                }
             }
             
             HStack {

@@ -56,8 +56,6 @@ struct ButtonView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ButtonView()
-            ButtonView()
-            ButtonView()
         }
     }
 }

@@ -83,6 +83,7 @@ struct Theme {
 struct DarkView_Previews: PreviewProvider {
     static var previews: some View {
         DarkView()
+            .preferredColorScheme(.dark)
             
     }
 }
