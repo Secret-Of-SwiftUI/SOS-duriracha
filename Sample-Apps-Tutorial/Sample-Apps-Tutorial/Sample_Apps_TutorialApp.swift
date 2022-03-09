@@ -12,6 +12,7 @@ struct Sample_Apps_TutorialApp: App {
     
     @StateObject var dataModel = DataModel()
     @StateObject private var eventData = EventData()
+    @StateObject private var fetcher = PandaCollectionFetcher()
     
     var body: some Scene {
         WindowGroup {
@@ -24,10 +25,16 @@ struct Sample_Apps_TutorialApp: App {
 //            }
 //            .environmentObject(eventData)
             
+//            NavigationView {
+//                ImageGridView()
+//            }
+//            .environmentObject(dataModel)
+//            .navigationViewStyle(.stack)
+            
             NavigationView {
-                ImageGridView()
+                MemeCreator()
+                    .environmentObject(fetcher)
             }
-            .environmentObject(dataModel)
             .navigationViewStyle(.stack)
         }
     }
