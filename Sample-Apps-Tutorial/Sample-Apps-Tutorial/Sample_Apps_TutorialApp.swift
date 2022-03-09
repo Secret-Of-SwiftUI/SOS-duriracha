@@ -10,6 +10,7 @@ import SwiftUI
 @main
 struct Sample_Apps_TutorialApp: App {
     
+    @StateObject var dataModel = DataModel()
     @StateObject private var eventData = EventData()
     
     var body: some Scene {
@@ -24,8 +25,9 @@ struct Sample_Apps_TutorialApp: App {
 //            .environmentObject(eventData)
             
             NavigationView {
-                SymbolGrid()
+                ImageGridView()
             }
+            .environmentObject(dataModel)
             .navigationViewStyle(.stack)
         }
     }

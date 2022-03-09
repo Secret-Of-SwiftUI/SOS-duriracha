@@ -26,6 +26,36 @@
 		ED6C65E027D860AF005C4879 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C65DF27D860AF005C4879 /* ItemDetail.swift */; };
 		ED6C65E427D86259005C4879 /* SymbolGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C65E327D86259005C4879 /* SymbolGrid.swift */; };
 		ED6C65E627D868E8005C4879 /* GridSymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C65E527D868E8005C4879 /* GridSymbolPicker.swift */; };
+		ED6C65E927D8712F005C4879 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C65E827D8712F005C4879 /* Item.swift */; };
+		ED6C65EB27D87220005C4879 /* DateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C65EA27D87220005C4879 /* DateModel.swift */; };
+		ED6C660327D875C6005C4879 /* groundSquirrel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED6C65ED27D875C6005C4879 /* groundSquirrel.jpg */; };
+		ED6C660427D875C6005C4879 /* yellowBelliedMarmot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED6C65EE27D875C6005C4879 /* yellowBelliedMarmot.jpg */; };
+		ED6C660527D875C6005C4879 /* bullTuleElkAndTwoFemales.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED6C65EF27D875C6005C4879 /* bullTuleElkAndTwoFemales.jpg */; };
+		ED6C660627D875C6005C4879 /* soaringTheRainbow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED6C65F027D875C6005C4879 /* soaringTheRainbow.jpg */; };
+		ED6C660727D875C6005C4879 /* harborSealPup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED6C65F127D875C6005C4879 /* harborSealPup.jpg */; };
+		ED6C660827D875C6005C4879 /* grizzlyCubs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED6C65F227D875C6005C4879 /* grizzlyCubs.jpg */; };
+		ED6C660927D875C6005C4879 /* redTailedHawk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED6C65F327D875C6005C4879 /* redTailedHawk.jpg */; };
+		ED6C660A27D875C6005C4879 /* doubleRainbowLowerMammoth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED6C65F427D875C6005C4879 /* doubleRainbowLowerMammoth.jpg */; };
+		ED6C660B27D875C6005C4879 /* newGrowthOfAntlers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED6C65F527D875C6005C4879 /* newGrowthOfAntlers.jpg */; };
+		ED6C660C27D875C6005C4879 /* harborSeal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED6C65F627D875C6005C4879 /* harborSeal.jpg */; };
+		ED6C660D27D875C6005C4879 /* sunriseAtGrottoGeyser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED6C65F727D875C6005C4879 /* sunriseAtGrottoGeyser.jpg */; };
+		ED6C660E27D875C6005C4879 /* owlsAtMammoth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED6C65F827D875C6005C4879 /* owlsAtMammoth.jpg */; };
+		ED6C660F27D875C6005C4879 /* heartSpring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED6C65F927D875C6005C4879 /* heartSpring.jpg */; };
+		ED6C661027D875C6005C4879 /* bobcat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED6C65FA27D875C6005C4879 /* bobcat.jpg */; };
+		ED6C661127D875C6005C4879 /* doubleRainbowYellowstone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED6C65FB27D875C6005C4879 /* doubleRainbowYellowstone.jpg */; };
+		ED6C661227D875C6005C4879 /* bullElk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED6C65FC27D875C6005C4879 /* bullElk.jpg */; };
+		ED6C661327D875C6005C4879 /* coyoteAndBison.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED6C65FD27D875C6005C4879 /* coyoteAndBison.jpg */; };
+		ED6C661427D875C6005C4879 /* riverOtter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED6C65FE27D875C6005C4879 /* riverOtter.jpg */; };
+		ED6C661527D875C6005C4879 /* bullElkSparring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED6C65FF27D875C6005C4879 /* bullElkSparring.jpg */; };
+		ED6C661627D875C6005C4879 /* grizzly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED6C660027D875C6005C4879 /* grizzly.jpg */; };
+		ED6C661727D875C6005C4879 /* towerCreekBASIN.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED6C660127D875C6005C4879 /* towerCreekBASIN.jpg */; };
+		ED6C661827D875C6005C4879 /* rainbowAndBadlands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED6C660227D875C6005C4879 /* rainbowAndBadlands.jpg */; };
+		ED6C661B27D8764A005C4879 /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C661A27D8764A005C4879 /* ImageGridView.swift */; };
+		ED6C661D27D87727005C4879 /* ColumnStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C661C27D87727005C4879 /* ColumnStepper.swift */; };
+		ED6C661F27D8788B005C4879 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C661E27D8788B005C4879 /* DetailView.swift */; };
+		ED6C662127D878F0005C4879 /* GridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C662027D878F0005C4879 /* GridItemView.swift */; };
+		ED6C662427D879CF005C4879 /* FileManagerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C662327D879CF005C4879 /* FileManagerExtensions.swift */; };
+		ED6C662627D87D97005C4879 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C662527D87D97005C4879 /* PhotoPicker.swift */; };
 		EDB10B7527D7299C00D0B14A /* Sample_Apps_TutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB10B7427D7299C00D0B14A /* Sample_Apps_TutorialApp.swift */; };
 		EDB10B7727D7299C00D0B14A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB10B7627D7299C00D0B14A /* ContentView.swift */; };
 		EDB10B7927D7299D00D0B14A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB10B7827D7299D00D0B14A /* Assets.xcassets */; };
@@ -58,6 +88,36 @@
 		ED6C65DF27D860AF005C4879 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		ED6C65E327D86259005C4879 /* SymbolGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolGrid.swift; sourceTree = "<group>"; };
 		ED6C65E527D868E8005C4879 /* GridSymbolPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridSymbolPicker.swift; sourceTree = "<group>"; };
+		ED6C65E827D8712F005C4879 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		ED6C65EA27D87220005C4879 /* DateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateModel.swift; sourceTree = "<group>"; };
+		ED6C65ED27D875C6005C4879 /* groundSquirrel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = groundSquirrel.jpg; sourceTree = "<group>"; };
+		ED6C65EE27D875C6005C4879 /* yellowBelliedMarmot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellowBelliedMarmot.jpg; sourceTree = "<group>"; };
+		ED6C65EF27D875C6005C4879 /* bullTuleElkAndTwoFemales.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullTuleElkAndTwoFemales.jpg; sourceTree = "<group>"; };
+		ED6C65F027D875C6005C4879 /* soaringTheRainbow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soaringTheRainbow.jpg; sourceTree = "<group>"; };
+		ED6C65F127D875C6005C4879 /* harborSealPup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harborSealPup.jpg; sourceTree = "<group>"; };
+		ED6C65F227D875C6005C4879 /* grizzlyCubs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grizzlyCubs.jpg; sourceTree = "<group>"; };
+		ED6C65F327D875C6005C4879 /* redTailedHawk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redTailedHawk.jpg; sourceTree = "<group>"; };
+		ED6C65F427D875C6005C4879 /* doubleRainbowLowerMammoth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doubleRainbowLowerMammoth.jpg; sourceTree = "<group>"; };
+		ED6C65F527D875C6005C4879 /* newGrowthOfAntlers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newGrowthOfAntlers.jpg; sourceTree = "<group>"; };
+		ED6C65F627D875C6005C4879 /* harborSeal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harborSeal.jpg; sourceTree = "<group>"; };
+		ED6C65F727D875C6005C4879 /* sunriseAtGrottoGeyser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunriseAtGrottoGeyser.jpg; sourceTree = "<group>"; };
+		ED6C65F827D875C6005C4879 /* owlsAtMammoth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = owlsAtMammoth.jpg; sourceTree = "<group>"; };
+		ED6C65F927D875C6005C4879 /* heartSpring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heartSpring.jpg; sourceTree = "<group>"; };
+		ED6C65FA27D875C6005C4879 /* bobcat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bobcat.jpg; sourceTree = "<group>"; };
+		ED6C65FB27D875C6005C4879 /* doubleRainbowYellowstone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doubleRainbowYellowstone.jpg; sourceTree = "<group>"; };
+		ED6C65FC27D875C6005C4879 /* bullElk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullElk.jpg; sourceTree = "<group>"; };
+		ED6C65FD27D875C6005C4879 /* coyoteAndBison.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coyoteAndBison.jpg; sourceTree = "<group>"; };
+		ED6C65FE27D875C6005C4879 /* riverOtter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = riverOtter.jpg; sourceTree = "<group>"; };
+		ED6C65FF27D875C6005C4879 /* bullElkSparring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullElkSparring.jpg; sourceTree = "<group>"; };
+		ED6C660027D875C6005C4879 /* grizzly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grizzly.jpg; sourceTree = "<group>"; };
+		ED6C660127D875C6005C4879 /* towerCreekBASIN.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = towerCreekBASIN.jpg; sourceTree = "<group>"; };
+		ED6C660227D875C6005C4879 /* rainbowAndBadlands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowAndBadlands.jpg; sourceTree = "<group>"; };
+		ED6C661A27D8764A005C4879 /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
+		ED6C661C27D87727005C4879 /* ColumnStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnStepper.swift; sourceTree = "<group>"; };
+		ED6C661E27D8788B005C4879 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		ED6C662027D878F0005C4879 /* GridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemView.swift; sourceTree = "<group>"; };
+		ED6C662327D879CF005C4879 /* FileManagerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtensions.swift; sourceTree = "<group>"; };
+		ED6C662527D87D97005C4879 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 		EDB10B7127D7299C00D0B14A /* Sample-Apps-Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample-Apps-Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB10B7427D7299C00D0B14A /* Sample_Apps_TutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_Apps_TutorialApp.swift; sourceTree = "<group>"; };
 		EDB10B7627D7299C00D0B14A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				ED6C65DB27D85835005C4879 /* DatePlanner */,
+				ED6C662227D879BB005C4879 /* ImageGallery */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -171,6 +232,64 @@
 			path = Grid;
 			sourceTree = "<group>";
 		};
+		ED6C65E727D87110005C4879 /* ImageGallery */ = {
+			isa = PBXGroup;
+			children = (
+				ED6C65E827D8712F005C4879 /* Item.swift */,
+				ED6C65EA27D87220005C4879 /* DateModel.swift */,
+			);
+			path = ImageGallery;
+			sourceTree = "<group>";
+		};
+		ED6C65EC27D875C6005C4879 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED6C65ED27D875C6005C4879 /* groundSquirrel.jpg */,
+				ED6C65EE27D875C6005C4879 /* yellowBelliedMarmot.jpg */,
+				ED6C65EF27D875C6005C4879 /* bullTuleElkAndTwoFemales.jpg */,
+				ED6C65F027D875C6005C4879 /* soaringTheRainbow.jpg */,
+				ED6C65F127D875C6005C4879 /* harborSealPup.jpg */,
+				ED6C65F227D875C6005C4879 /* grizzlyCubs.jpg */,
+				ED6C65F327D875C6005C4879 /* redTailedHawk.jpg */,
+				ED6C65F427D875C6005C4879 /* doubleRainbowLowerMammoth.jpg */,
+				ED6C65F527D875C6005C4879 /* newGrowthOfAntlers.jpg */,
+				ED6C65F627D875C6005C4879 /* harborSeal.jpg */,
+				ED6C65F727D875C6005C4879 /* sunriseAtGrottoGeyser.jpg */,
+				ED6C65F827D875C6005C4879 /* owlsAtMammoth.jpg */,
+				ED6C65F927D875C6005C4879 /* heartSpring.jpg */,
+				ED6C65FA27D875C6005C4879 /* bobcat.jpg */,
+				ED6C65FB27D875C6005C4879 /* doubleRainbowYellowstone.jpg */,
+				ED6C65FC27D875C6005C4879 /* bullElk.jpg */,
+				ED6C65FD27D875C6005C4879 /* coyoteAndBison.jpg */,
+				ED6C65FE27D875C6005C4879 /* riverOtter.jpg */,
+				ED6C65FF27D875C6005C4879 /* bullElkSparring.jpg */,
+				ED6C660027D875C6005C4879 /* grizzly.jpg */,
+				ED6C660127D875C6005C4879 /* towerCreekBASIN.jpg */,
+				ED6C660227D875C6005C4879 /* rainbowAndBadlands.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ED6C661927D87607005C4879 /* ImageGallery */ = {
+			isa = PBXGroup;
+			children = (
+				ED6C661A27D8764A005C4879 /* ImageGridView.swift */,
+				ED6C661C27D87727005C4879 /* ColumnStepper.swift */,
+				ED6C661E27D8788B005C4879 /* DetailView.swift */,
+				ED6C662027D878F0005C4879 /* GridItemView.swift */,
+			);
+			path = ImageGallery;
+			sourceTree = "<group>";
+		};
+		ED6C662227D879BB005C4879 /* ImageGallery */ = {
+			isa = PBXGroup;
+			children = (
+				ED6C662327D879CF005C4879 /* FileManagerExtensions.swift */,
+				ED6C662527D87D97005C4879 /* PhotoPicker.swift */,
+			);
+			path = ImageGallery;
+			sourceTree = "<group>";
+		};
 		EDB10B6827D7299C00D0B14A = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +314,7 @@
 				EDB10B8427D72B6700D0B14A /* View */,
 				EDB10B7427D7299C00D0B14A /* Sample_Apps_TutorialApp.swift */,
 				EDB10B7827D7299D00D0B14A /* Assets.xcassets */,
+				ED6C65EC27D875C6005C4879 /* Resources */,
 				EDB10B7A27D7299D00D0B14A /* Preview Content */,
 			);
 			path = "Sample-Apps-Tutorial";
@@ -216,6 +336,7 @@
 				ED6C65C827D8431E005C4879 /* Story */,
 				ED6C65C927D8432C005C4879 /* DatePlanner */,
 				ED6C65DC27D85E8D005C4879 /* Grid */,
+				ED6C661927D87607005C4879 /* ImageGallery */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -226,6 +347,7 @@
 				ED6C65CA27D84340005C4879 /* AboutMe */,
 				ED6C65CB27D84347005C4879 /* Story */,
 				ED6C65CC27D8434D005C4879 /* DatePlanner */,
+				ED6C65E727D87110005C4879 /* ImageGallery */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -288,8 +410,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6C660627D875C6005C4879 /* soaringTheRainbow.jpg in Resources */,
+				ED6C660327D875C6005C4879 /* groundSquirrel.jpg in Resources */,
+				ED6C660F27D875C6005C4879 /* heartSpring.jpg in Resources */,
+				ED6C661427D875C6005C4879 /* riverOtter.jpg in Resources */,
+				ED6C660527D875C6005C4879 /* bullTuleElkAndTwoFemales.jpg in Resources */,
+				ED6C661027D875C6005C4879 /* bobcat.jpg in Resources */,
+				ED6C661327D875C6005C4879 /* coyoteAndBison.jpg in Resources */,
+				ED6C661527D875C6005C4879 /* bullElkSparring.jpg in Resources */,
+				ED6C661227D875C6005C4879 /* bullElk.jpg in Resources */,
+				ED6C660E27D875C6005C4879 /* owlsAtMammoth.jpg in Resources */,
+				ED6C660B27D875C6005C4879 /* newGrowthOfAntlers.jpg in Resources */,
+				ED6C661627D875C6005C4879 /* grizzly.jpg in Resources */,
+				ED6C660D27D875C6005C4879 /* sunriseAtGrottoGeyser.jpg in Resources */,
+				ED6C661727D875C6005C4879 /* towerCreekBASIN.jpg in Resources */,
+				ED6C660927D875C6005C4879 /* redTailedHawk.jpg in Resources */,
 				EDB10B7C27D7299D00D0B14A /* Preview Assets.xcassets in Resources */,
+				ED6C661127D875C6005C4879 /* doubleRainbowYellowstone.jpg in Resources */,
 				EDB10B7927D7299D00D0B14A /* Assets.xcassets in Resources */,
+				ED6C660427D875C6005C4879 /* yellowBelliedMarmot.jpg in Resources */,
+				ED6C661827D875C6005C4879 /* rainbowAndBadlands.jpg in Resources */,
+				ED6C660C27D875C6005C4879 /* harborSeal.jpg in Resources */,
+				ED6C660A27D875C6005C4879 /* doubleRainbowLowerMammoth.jpg in Resources */,
+				ED6C660827D875C6005C4879 /* grizzlyCubs.jpg in Resources */,
+				ED6C660727D875C6005C4879 /* harborSealPup.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +444,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6C661B27D8764A005C4879 /* ImageGridView.swift in Sources */,
 				ED6C65B727D82C75005C4879 /* StoryModels.swift in Sources */,
 				ED6C65D627D84779005C4879 /* EventSymbols.swift in Sources */,
 				ED6C65D427D84734005C4879 /* SymbolPicker.swift in Sources */,
 				ED6C65B927D82D97005C4879 /* StoryPageView.swift in Sources */,
+				ED6C65E927D8712F005C4879 /* Item.swift in Sources */,
 				ED6C65C127D83822005C4879 /* EventData.swift in Sources */,
 				ED6C65DA27D85354005C4879 /* EventRow.swift in Sources */,
 				ED6C65D227D844DF005C4879 /* TaskRow.swift in Sources */,
 				ED6C65C327D84079005C4879 /* EventList.swift in Sources */,
+				ED6C65EB27D87220005C4879 /* DateModel.swift in Sources */,
 				EDB10B8927D72BF300D0B14A /* StoryView.swift in Sources */,
 				EDB10B8327D729E300D0B14A /* Info.swift in Sources */,
 				ED6C65DE27D85EA0005C4879 /* GridView.swift in Sources */,
@@ -319,13 +466,18 @@
 				ED6C65E627D868E8005C4879 /* GridSymbolPicker.swift in Sources */,
 				ED6C65D027D843B9005C4879 /* SFSymbolStyling.swift in Sources */,
 				EDB10B8D27D72E9100D0B14A /* FunFactsView.swift in Sources */,
+				ED6C661D27D87727005C4879 /* ColumnStepper.swift in Sources */,
 				ED6C65E027D860AF005C4879 /* ItemDetail.swift in Sources */,
 				ED6C65CE27D84366005C4879 /* EventDetail.swift in Sources */,
+				ED6C661F27D8788B005C4879 /* DetailView.swift in Sources */,
 				EDB10B8727D72B7A00D0B14A /* HomeView.swift in Sources */,
+				ED6C662427D879CF005C4879 /* FileManagerExtensions.swift in Sources */,
+				ED6C662627D87D97005C4879 /* PhotoPicker.swift in Sources */,
 				ED6C65E427D86259005C4879 /* SymbolGrid.swift in Sources */,
 				EDB10B7727D7299C00D0B14A /* ContentView.swift in Sources */,
 				ED6C65D827D85109005C4879 /* EventEditor.swift in Sources */,
 				EDB10B7527D7299C00D0B14A /* Sample_Apps_TutorialApp.swift in Sources */,
+				ED6C662127D878F0005C4879 /* GridItemView.swift in Sources */,
 				EDB10B8F27D7327000D0B14A /* MyStory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
