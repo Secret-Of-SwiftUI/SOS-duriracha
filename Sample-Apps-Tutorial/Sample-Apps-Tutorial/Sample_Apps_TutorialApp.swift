@@ -38,8 +38,10 @@ struct Sample_Apps_TutorialApp: App {
 //            }
 //            .navigationViewStyle(.stack)
             
-            LevelView()
-                .environmentObject(motionDetector)
+//            LevelView()
+//                .environmentObject(motionDetector)
+            
+            SeismometerBrowser()
         }
     }
 }

@@ -65,6 +65,11 @@
 		ED6C663927D896ED005C4879 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C663827D896EC005C4879 /* DoubleExtension.swift */; };
 		ED6C663B27D89898005C4879 /* BubbleLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C663A27D89898005C4879 /* BubbleLevel.swift */; };
 		ED6C663D27D89DDF005C4879 /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C663C27D89DDF005C4879 /* LevelView.swift */; };
+		ED6C664027D89FAE005C4879 /* NeedleSeismomter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C663F27D89FAE005C4879 /* NeedleSeismomter.swift */; };
+		ED6C664227D8A1E2005C4879 /* GraphSeismometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C664127D8A1E2005C4879 /* GraphSeismometer.swift */; };
+		ED6C664427D8A51A005C4879 /* SeismometerBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C664327D8A51A005C4879 /* SeismometerBrowser.swift */; };
+		ED6C664627D8A6CE005C4879 /* GaugeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C664527D8A6CE005C4879 /* GaugeBackground.swift */; };
+		ED6C664827D8A878005C4879 /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C664727D8A878005C4879 /* LineGraph.swift */; };
 		EDB10B7527D7299C00D0B14A /* Sample_Apps_TutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB10B7427D7299C00D0B14A /* Sample_Apps_TutorialApp.swift */; };
 		EDB10B7727D7299C00D0B14A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB10B7627D7299C00D0B14A /* ContentView.swift */; };
 		EDB10B7927D7299D00D0B14A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB10B7827D7299D00D0B14A /* Assets.xcassets */; };
@@ -136,6 +141,11 @@
 		ED6C663827D896EC005C4879 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
 		ED6C663A27D89898005C4879 /* BubbleLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleLevel.swift; sourceTree = "<group>"; };
 		ED6C663C27D89DDF005C4879 /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
+		ED6C663F27D89FAE005C4879 /* NeedleSeismomter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedleSeismomter.swift; sourceTree = "<group>"; };
+		ED6C664127D8A1E2005C4879 /* GraphSeismometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphSeismometer.swift; sourceTree = "<group>"; };
+		ED6C664327D8A51A005C4879 /* SeismometerBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeismometerBrowser.swift; sourceTree = "<group>"; };
+		ED6C664527D8A6CE005C4879 /* GaugeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeBackground.swift; sourceTree = "<group>"; };
+		ED6C664727D8A878005C4879 /* LineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
 		EDB10B7127D7299C00D0B14A /* Sample-Apps-Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample-Apps-Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB10B7427D7299C00D0B14A /* Sample_Apps_TutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_Apps_TutorialApp.swift; sourceTree = "<group>"; };
 		EDB10B7627D7299C00D0B14A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -354,6 +364,18 @@
 			path = Bubble;
 			sourceTree = "<group>";
 		};
+		ED6C663E27D89F84005C4879 /* Seismometer */ = {
+			isa = PBXGroup;
+			children = (
+				ED6C663F27D89FAE005C4879 /* NeedleSeismomter.swift */,
+				ED6C664127D8A1E2005C4879 /* GraphSeismometer.swift */,
+				ED6C664327D8A51A005C4879 /* SeismometerBrowser.swift */,
+				ED6C664527D8A6CE005C4879 /* GaugeBackground.swift */,
+				ED6C664727D8A878005C4879 /* LineGraph.swift */,
+			);
+			path = Seismometer;
+			sourceTree = "<group>";
+		};
 		EDB10B6827D7299C00D0B14A = {
 			isa = PBXGroup;
 			children = (
@@ -403,6 +425,7 @@
 				ED6C661927D87607005C4879 /* ImageGallery */,
 				ED6C662D27D88451005C4879 /* Meme */,
 				ED6C663527D8962E005C4879 /* Bubble */,
+				ED6C663E27D89F84005C4879 /* Seismometer */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -525,12 +548,14 @@
 				ED6C65D227D844DF005C4879 /* TaskRow.swift in Sources */,
 				ED6C65C327D84079005C4879 /* EventList.swift in Sources */,
 				ED6C65EB27D87220005C4879 /* DateModel.swift in Sources */,
+				ED6C664027D89FAE005C4879 /* NeedleSeismomter.swift in Sources */,
 				ED6C663927D896ED005C4879 /* DoubleExtension.swift in Sources */,
 				EDB10B8927D72BF300D0B14A /* StoryView.swift in Sources */,
 				EDB10B8327D729E300D0B14A /* Info.swift in Sources */,
 				ED6C65DE27D85EA0005C4879 /* GridView.swift in Sources */,
 				ED6C662927D88307005C4879 /* Panda.swift in Sources */,
 				ED6C663427D88E9F005C4879 /* MotionDetector.swift in Sources */,
+				ED6C664427D8A51A005C4879 /* SeismometerBrowser.swift in Sources */,
 				ED6C65BF27D83763005C4879 /* EventTask.swift in Sources */,
 				ED6C65BD27D836CB005C4879 /* Event.swift in Sources */,
 				ED6C663127D885C6005C4879 /* MemeCreator.swift in Sources */,
@@ -538,6 +563,7 @@
 				ED6C65BB27D82DD5005C4879 /* OwnStoryView.swift in Sources */,
 				EDB10B8B27D72DDE00D0B14A /* FavoritesView.swift in Sources */,
 				ED6C65E627D868E8005C4879 /* GridSymbolPicker.swift in Sources */,
+				ED6C664827D8A878005C4879 /* LineGraph.swift in Sources */,
 				ED6C662F27D88465005C4879 /* LoadableImage.swift in Sources */,
 				ED6C65D027D843B9005C4879 /* SFSymbolStyling.swift in Sources */,
 				EDB10B8D27D72E9100D0B14A /* FunFactsView.swift in Sources */,
@@ -546,9 +572,11 @@
 				ED6C65E027D860AF005C4879 /* ItemDetail.swift in Sources */,
 				ED6C65CE27D84366005C4879 /* EventDetail.swift in Sources */,
 				ED6C661F27D8788B005C4879 /* DetailView.swift in Sources */,
+				ED6C664227D8A1E2005C4879 /* GraphSeismometer.swift in Sources */,
 				EDB10B8727D72B7A00D0B14A /* HomeView.swift in Sources */,
 				ED6C662427D879CF005C4879 /* FileManagerExtensions.swift in Sources */,
 				ED6C662627D87D97005C4879 /* PhotoPicker.swift in Sources */,
+				ED6C664627D8A6CE005C4879 /* GaugeBackground.swift in Sources */,
 				ED6C65E427D86259005C4879 /* SymbolGrid.swift in Sources */,
 				EDB10B7727D7299C00D0B14A /* ContentView.swift in Sources */,
 				ED6C65D827D85109005C4879 /* EventEditor.swift in Sources */,
@@ -685,7 +713,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sample-Apps-Tutorial/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Y5D3Q95V6F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -714,7 +742,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sample-Apps-Tutorial/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Y5D3Q95V6F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
