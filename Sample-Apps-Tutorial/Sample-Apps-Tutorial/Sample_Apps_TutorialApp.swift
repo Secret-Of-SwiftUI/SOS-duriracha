@@ -16,12 +16,17 @@ struct Sample_Apps_TutorialApp: App {
         WindowGroup {
 //            ContentView()
             
+//            NavigationView {
+//                EventList()
+//                Text("Select an Event")
+//                    .foregroundColor(.secondary)
+//            }
+//            .environmentObject(eventData)
+            
             NavigationView {
-                EventList()
-                Text("Select an Event")
-                    .foregroundColor(.secondary)
+                SymbolGrid()
             }
-            .environmentObject(eventData)
+            .navigationViewStyle(.stack)
         }
     }
 }

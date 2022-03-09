@@ -22,6 +22,10 @@
 		ED6C65D627D84779005C4879 /* EventSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C65D527D84779005C4879 /* EventSymbols.swift */; };
 		ED6C65D827D85109005C4879 /* EventEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C65D727D85109005C4879 /* EventEditor.swift */; };
 		ED6C65DA27D85354005C4879 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C65D927D85354005C4879 /* EventRow.swift */; };
+		ED6C65DE27D85EA0005C4879 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C65DD27D85EA0005C4879 /* GridView.swift */; };
+		ED6C65E027D860AF005C4879 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C65DF27D860AF005C4879 /* ItemDetail.swift */; };
+		ED6C65E427D86259005C4879 /* SymbolGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C65E327D86259005C4879 /* SymbolGrid.swift */; };
+		ED6C65E627D868E8005C4879 /* GridSymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C65E527D868E8005C4879 /* GridSymbolPicker.swift */; };
 		EDB10B7527D7299C00D0B14A /* Sample_Apps_TutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB10B7427D7299C00D0B14A /* Sample_Apps_TutorialApp.swift */; };
 		EDB10B7727D7299C00D0B14A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB10B7627D7299C00D0B14A /* ContentView.swift */; };
 		EDB10B7927D7299D00D0B14A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB10B7827D7299D00D0B14A /* Assets.xcassets */; };
@@ -50,6 +54,10 @@
 		ED6C65D527D84779005C4879 /* EventSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSymbols.swift; sourceTree = "<group>"; };
 		ED6C65D727D85109005C4879 /* EventEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditor.swift; sourceTree = "<group>"; };
 		ED6C65D927D85354005C4879 /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		ED6C65DD27D85EA0005C4879 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		ED6C65DF27D860AF005C4879 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		ED6C65E327D86259005C4879 /* SymbolGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolGrid.swift; sourceTree = "<group>"; };
+		ED6C65E527D868E8005C4879 /* GridSymbolPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridSymbolPicker.swift; sourceTree = "<group>"; };
 		EDB10B7127D7299C00D0B14A /* Sample-Apps-Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample-Apps-Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB10B7427D7299C00D0B14A /* Sample_Apps_TutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_Apps_TutorialApp.swift; sourceTree = "<group>"; };
 		EDB10B7627D7299C00D0B14A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,9 +85,7 @@
 		ED6C65C427D84254005C4879 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				ED6C65C527D84264005C4879 /* ColorOptions.swift */,
-				ED6C65CF27D843B9005C4879 /* SFSymbolStyling.swift */,
-				ED6C65D527D84779005C4879 /* EventSymbols.swift */,
+				ED6C65DB27D85835005C4879 /* DatePlanner */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -144,6 +150,27 @@
 			path = DatePlanner;
 			sourceTree = "<group>";
 		};
+		ED6C65DB27D85835005C4879 /* DatePlanner */ = {
+			isa = PBXGroup;
+			children = (
+				ED6C65C527D84264005C4879 /* ColorOptions.swift */,
+				ED6C65CF27D843B9005C4879 /* SFSymbolStyling.swift */,
+				ED6C65D527D84779005C4879 /* EventSymbols.swift */,
+			);
+			path = DatePlanner;
+			sourceTree = "<group>";
+		};
+		ED6C65DC27D85E8D005C4879 /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				ED6C65DD27D85EA0005C4879 /* GridView.swift */,
+				ED6C65DF27D860AF005C4879 /* ItemDetail.swift */,
+				ED6C65E327D86259005C4879 /* SymbolGrid.swift */,
+				ED6C65E527D868E8005C4879 /* GridSymbolPicker.swift */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
 		EDB10B6827D7299C00D0B14A = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +215,7 @@
 				ED6C65C727D8430C005C4879 /* AboutMe */,
 				ED6C65C827D8431E005C4879 /* Story */,
 				ED6C65C927D8432C005C4879 /* DatePlanner */,
+				ED6C65DC27D85E8D005C4879 /* Grid */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -282,15 +310,19 @@
 				ED6C65C327D84079005C4879 /* EventList.swift in Sources */,
 				EDB10B8927D72BF300D0B14A /* StoryView.swift in Sources */,
 				EDB10B8327D729E300D0B14A /* Info.swift in Sources */,
+				ED6C65DE27D85EA0005C4879 /* GridView.swift in Sources */,
 				ED6C65BF27D83763005C4879 /* EventTask.swift in Sources */,
 				ED6C65BD27D836CB005C4879 /* Event.swift in Sources */,
 				ED6C65C627D84264005C4879 /* ColorOptions.swift in Sources */,
 				ED6C65BB27D82DD5005C4879 /* OwnStoryView.swift in Sources */,
 				EDB10B8B27D72DDE00D0B14A /* FavoritesView.swift in Sources */,
+				ED6C65E627D868E8005C4879 /* GridSymbolPicker.swift in Sources */,
 				ED6C65D027D843B9005C4879 /* SFSymbolStyling.swift in Sources */,
 				EDB10B8D27D72E9100D0B14A /* FunFactsView.swift in Sources */,
+				ED6C65E027D860AF005C4879 /* ItemDetail.swift in Sources */,
 				ED6C65CE27D84366005C4879 /* EventDetail.swift in Sources */,
 				EDB10B8727D72B7A00D0B14A /* HomeView.swift in Sources */,
+				ED6C65E427D86259005C4879 /* SymbolGrid.swift in Sources */,
 				EDB10B7727D7299C00D0B14A /* ContentView.swift in Sources */,
 				ED6C65D827D85109005C4879 /* EventEditor.swift in Sources */,
 				EDB10B7527D7299C00D0B14A /* Sample_Apps_TutorialApp.swift in Sources */,
