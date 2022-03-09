@@ -60,6 +60,11 @@
 		ED6C662C27D8836B005C4879 /* PandaCollecitonFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C662B27D8836B005C4879 /* PandaCollecitonFetcher.swift */; };
 		ED6C662F27D88465005C4879 /* LoadableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C662E27D88465005C4879 /* LoadableImage.swift */; };
 		ED6C663127D885C6005C4879 /* MemeCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C663027D885C6005C4879 /* MemeCreator.swift */; };
+		ED6C663427D88E9F005C4879 /* MotionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C663327D88E9F005C4879 /* MotionDetector.swift */; };
+		ED6C663727D8964B005C4879 /* OrientationDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C663627D8964B005C4879 /* OrientationDataView.swift */; };
+		ED6C663927D896ED005C4879 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C663827D896EC005C4879 /* DoubleExtension.swift */; };
+		ED6C663B27D89898005C4879 /* BubbleLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C663A27D89898005C4879 /* BubbleLevel.swift */; };
+		ED6C663D27D89DDF005C4879 /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C663C27D89DDF005C4879 /* LevelView.swift */; };
 		EDB10B7527D7299C00D0B14A /* Sample_Apps_TutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB10B7427D7299C00D0B14A /* Sample_Apps_TutorialApp.swift */; };
 		EDB10B7727D7299C00D0B14A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB10B7627D7299C00D0B14A /* ContentView.swift */; };
 		EDB10B7927D7299D00D0B14A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB10B7827D7299D00D0B14A /* Assets.xcassets */; };
@@ -126,6 +131,11 @@
 		ED6C662B27D8836B005C4879 /* PandaCollecitonFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaCollecitonFetcher.swift; sourceTree = "<group>"; };
 		ED6C662E27D88465005C4879 /* LoadableImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadableImage.swift; sourceTree = "<group>"; };
 		ED6C663027D885C6005C4879 /* MemeCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCreator.swift; sourceTree = "<group>"; };
+		ED6C663327D88E9F005C4879 /* MotionDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDetector.swift; sourceTree = "<group>"; };
+		ED6C663627D8964B005C4879 /* OrientationDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationDataView.swift; sourceTree = "<group>"; };
+		ED6C663827D896EC005C4879 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		ED6C663A27D89898005C4879 /* BubbleLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleLevel.swift; sourceTree = "<group>"; };
+		ED6C663C27D89DDF005C4879 /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
 		EDB10B7127D7299C00D0B14A /* Sample-Apps-Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample-Apps-Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB10B7427D7299C00D0B14A /* Sample_Apps_TutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_Apps_TutorialApp.swift; sourceTree = "<group>"; };
 		EDB10B7627D7299C00D0B14A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -156,6 +166,7 @@
 				ED6C65DB27D85835005C4879 /* DatePlanner */,
 				ED6C662227D879BB005C4879 /* ImageGallery */,
 				ED6C662A27D8835B005C4879 /* Meme */,
+				ED6C663227D88E89005C4879 /* Bubble */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -324,6 +335,25 @@
 			path = Meme;
 			sourceTree = "<group>";
 		};
+		ED6C663227D88E89005C4879 /* Bubble */ = {
+			isa = PBXGroup;
+			children = (
+				ED6C663327D88E9F005C4879 /* MotionDetector.swift */,
+				ED6C663827D896EC005C4879 /* DoubleExtension.swift */,
+			);
+			path = Bubble;
+			sourceTree = "<group>";
+		};
+		ED6C663527D8962E005C4879 /* Bubble */ = {
+			isa = PBXGroup;
+			children = (
+				ED6C663627D8964B005C4879 /* OrientationDataView.swift */,
+				ED6C663A27D89898005C4879 /* BubbleLevel.swift */,
+				ED6C663C27D89DDF005C4879 /* LevelView.swift */,
+			);
+			path = Bubble;
+			sourceTree = "<group>";
+		};
 		EDB10B6827D7299C00D0B14A = {
 			isa = PBXGroup;
 			children = (
@@ -372,6 +402,7 @@
 				ED6C65DC27D85E8D005C4879 /* Grid */,
 				ED6C661927D87607005C4879 /* ImageGallery */,
 				ED6C662D27D88451005C4879 /* Meme */,
+				ED6C663527D8962E005C4879 /* Bubble */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -481,20 +512,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED6C661B27D8764A005C4879 /* ImageGridView.swift in Sources */,
+				ED6C663727D8964B005C4879 /* OrientationDataView.swift in Sources */,
 				ED6C65B727D82C75005C4879 /* StoryModels.swift in Sources */,
 				ED6C65D627D84779005C4879 /* EventSymbols.swift in Sources */,
 				ED6C65D427D84734005C4879 /* SymbolPicker.swift in Sources */,
+				ED6C663D27D89DDF005C4879 /* LevelView.swift in Sources */,
 				ED6C65B927D82D97005C4879 /* StoryPageView.swift in Sources */,
 				ED6C65E927D8712F005C4879 /* Item.swift in Sources */,
 				ED6C65C127D83822005C4879 /* EventData.swift in Sources */,
+				ED6C663B27D89898005C4879 /* BubbleLevel.swift in Sources */,
 				ED6C65DA27D85354005C4879 /* EventRow.swift in Sources */,
 				ED6C65D227D844DF005C4879 /* TaskRow.swift in Sources */,
 				ED6C65C327D84079005C4879 /* EventList.swift in Sources */,
 				ED6C65EB27D87220005C4879 /* DateModel.swift in Sources */,
+				ED6C663927D896ED005C4879 /* DoubleExtension.swift in Sources */,
 				EDB10B8927D72BF300D0B14A /* StoryView.swift in Sources */,
 				EDB10B8327D729E300D0B14A /* Info.swift in Sources */,
 				ED6C65DE27D85EA0005C4879 /* GridView.swift in Sources */,
 				ED6C662927D88307005C4879 /* Panda.swift in Sources */,
+				ED6C663427D88E9F005C4879 /* MotionDetector.swift in Sources */,
 				ED6C65BF27D83763005C4879 /* EventTask.swift in Sources */,
 				ED6C65BD27D836CB005C4879 /* Event.swift in Sources */,
 				ED6C663127D885C6005C4879 /* MemeCreator.swift in Sources */,
@@ -649,6 +685,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sample-Apps-Tutorial/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -677,6 +714,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sample-Apps-Tutorial/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

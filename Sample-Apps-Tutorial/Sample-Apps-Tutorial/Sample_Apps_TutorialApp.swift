@@ -13,6 +13,7 @@ struct Sample_Apps_TutorialApp: App {
     @StateObject var dataModel = DataModel()
     @StateObject private var eventData = EventData()
     @StateObject private var fetcher = PandaCollectionFetcher()
+    @StateObject private var motionDetector = MotionDetector(updateInterval: 0.01)
     
     var body: some Scene {
         WindowGroup {
@@ -31,11 +32,14 @@ struct Sample_Apps_TutorialApp: App {
 //            .environmentObject(dataModel)
 //            .navigationViewStyle(.stack)
             
-            NavigationView {
-                MemeCreator()
-                    .environmentObject(fetcher)
-            }
-            .navigationViewStyle(.stack)
+//            NavigationView {
+//                MemeCreator()
+//                    .environmentObject(fetcher)
+//            }
+//            .navigationViewStyle(.stack)
+            
+            LevelView()
+                .environmentObject(motionDetector)
         }
     }
 }
