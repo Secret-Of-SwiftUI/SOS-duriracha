@@ -33,6 +33,39 @@ enum Theme: String {
     }
     
     var mainColor: Color {
-        Color(rawValue)
+        switch self {
+        case .bubblegum:
+            return .mint
+        case .buttercup:
+            return .yellow
+        case .indigo:
+            return .indigo
+        case .lavender:
+            return .purple
+        case .magenta:
+            return .red
+        case .navy:
+            return .blue
+        case .orange:
+            return .orange
+        case .oxblood:
+            return .red
+        case .periwinkle:
+            return .brown
+        case .poppy:
+            return .blue
+        case .purple:
+            return .purple
+        case .seafoam:
+            return .teal
+        case .sky:
+            return .blue
+        case .tan:
+            return .green
+        case .teal:
+            return .teal
+        case .yellow:
+            return .yellow
+        }
     }
 }

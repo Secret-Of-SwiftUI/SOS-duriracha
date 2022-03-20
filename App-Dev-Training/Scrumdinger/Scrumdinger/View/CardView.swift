@@ -10,7 +10,7 @@ import SwiftUI
 struct CardView: View {
     let scrum: DailyScrum
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             Text(scrum.title)
                 .font(.headline)
                 .accessibilityAddTraits(.isHeader)
@@ -26,8 +26,9 @@ struct CardView: View {
                     .labelStyle(.trailingIcon)
             }
             .font(.caption)
-            .foregroundColor(scrum.theme.accentColor)
         }
+        .padding()
+        .foregroundColor(scrum.theme.accentColor)
     }
 }
 
