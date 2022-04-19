@@ -23,6 +23,9 @@ struct BrowseView: View {
                 
                 FeaturedChannelsScrollView()
                     .listRowInsets(EdgeInsets())
+                
+                TopEpisodesView()
+                    .listRowInsets(EdgeInsets())
             }
             .listStyle(PlainListStyle())
             .environment(\.defaultMinListRowHeight, 300)
