@@ -30,6 +30,11 @@ struct BrowseView: View {
             .listStyle(PlainListStyle())
             .environment(\.defaultMinListRowHeight, 300)
             
+            VStack {
+                Spacer()
+                
+                PlayingView()
+            }
         }
         .navigationTitle("Browse")
     }

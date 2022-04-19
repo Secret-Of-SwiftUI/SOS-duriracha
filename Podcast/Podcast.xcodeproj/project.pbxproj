@@ -26,6 +26,7 @@
 		B531995D280E845A00016246 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B531995C280E845A00016246 /* View+Extension.swift */; };
 		B531995F280E856E00016246 /* TopEpisodesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B531995E280E856E00016246 /* TopEpisodesView.swift */; };
 		B5319961280E897600016246 /* EpisodesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5319960280E897600016246 /* EpisodesView.swift */; };
+		B5319963280E98DF00016246 /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5319962280E98DF00016246 /* PlayingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		B531995C280E845A00016246 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		B531995E280E856E00016246 /* TopEpisodesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopEpisodesView.swift; sourceTree = "<group>"; };
 		B5319960280E897600016246 /* EpisodesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesView.swift; sourceTree = "<group>"; };
+		B5319962280E98DF00016246 /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				B5319941280E0E8300016246 /* SectionHeaderView.swift */,
+				B5319962280E98DF00016246 /* PlayingView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 		B531995A280E844A00016246 /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				B5319964280E9C5700016246 /* UIComponent */,
 				B531995B280E844F00016246 /* Extension */,
 			);
 			path = Global;
@@ -166,6 +170,13 @@
 				B531995C280E845A00016246 /* View+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		B5319964280E9C5700016246 /* UIComponent */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIComponent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +264,7 @@
 				B5319954280E5C4400016246 /* FeaturedChannelView.swift in Sources */,
 				B531994E280E4F8C00016246 /* RecentView.swift in Sources */,
 				B5319950280E516E00016246 /* Recent.swift in Sources */,
+				B5319963280E98DF00016246 /* PlayingView.swift in Sources */,
 				B5319948280E154B00016246 /* FeaturedScrollView.swift in Sources */,
 				B5319961280E897600016246 /* EpisodesView.swift in Sources */,
 			);
