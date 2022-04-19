@@ -14,12 +14,17 @@ struct RecentScrollView: View {
     private let dummyCells: [Recent] = dummyRecent
     
     var body: some View {
-        ScrollView(.horizontal, showsIndicators: false) {
-            HStack {
-                ForEach(dummyCells.indices){ index in
-                    RecentView(mainImage: dummyCells[index].mainImage,
-                               title: dummyCells[index].title,
-                               author: dummyCells[index].author)
+        VStack {
+            SectionHeaderView(title: "New & Noteworthy",
+                              hasMoreContent: true)
+            
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack {
+                    ForEach(dummyCells.indices){ index in
+                        RecentView(mainImage: dummyCells[index].mainImage,
+                                   title: dummyCells[index].title,
+                                   author: dummyCells[index].author)
+                    }
                 }
             }
         }

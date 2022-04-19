@@ -27,17 +27,19 @@ struct SectionHeaderView: View {
             HStack {
                 if let title = title {
                     Text(title)
-                        .font(.title)
+                        .font(.system(size: 20, weight: .bold, design: .default))
                         .foregroundColor(.white)
                 }
                 
                 Spacer()
                 
                 if hasMoreContent {
-                    Button("See All", action: {
-                        print("see all")
+                    Button(action: {
+                        
+                    }, label: {
+                        Text("See All")
+                            .tint(.purple)
                     })
-                        .tint(.purple)
                 }
             }
         }

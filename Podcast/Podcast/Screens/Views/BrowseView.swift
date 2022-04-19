@@ -16,16 +16,16 @@ struct BrowseView: View {
             List {
                 FeaturedScrollView()
                     .listRowInsets(EdgeInsets())
+                    .padding(.bottom, 25)
                 
                 RecentScrollView()
                     .listRowInsets(EdgeInsets())
             }
             .listStyle(PlainListStyle())
-            .environment(\.defaultMinListRowHeight, 260)
+            .environment(\.defaultMinListRowHeight, 300)
             
         }
         .navigationTitle("Browse")
-        .navigationBarTitleDisplayMode(.automatic)
     }
 }
 
