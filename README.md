@@ -11,3 +11,8 @@
   
 ### 🗂  SwiftUI 정리
 * [SwiftUI Tutorial 기본 개념 정리](https://github.com/Secret-Of-SwiftUI/SOS-SwiftUI/discussions/7)
+
+
+### 🗂  Clone-Coding 정리
+
+* [Podcast Clone Coding](https://github.com/Secret-Of-SwiftUI/SOS-duriracha/tree/main/Podcast)
