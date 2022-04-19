@@ -21,9 +21,6 @@ struct TabbarView: View {
                 .tag(0)
             
             BrowseView()
-                .edgesIgnoringSafeArea(.all)
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(Color.white)
                 .tabItem {
                     Image(systemName: "square.grid.2x2.fill")
                     Text("Browse")

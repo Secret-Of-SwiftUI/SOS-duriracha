@@ -9,12 +9,20 @@ import SwiftUI
 
 struct BrowseView: View {
     var body: some View {
-        ScrollView {
-            VStack {
-                
+        ZStack {
+            Color.black
+                .ignoresSafeArea()
+            
+            List {
+                FeaturedScrollView()
+                    .listRowInsets(EdgeInsets())
             }
+            .listStyle(PlainListStyle())
+            .environment(\.defaultMinListRowHeight, 250)
+            
         }
-            .navigationTitle("Browse")
+        .navigationTitle("Browse")
+        .navigationBarTitleDisplayMode(.automatic)
     }
 }
 
