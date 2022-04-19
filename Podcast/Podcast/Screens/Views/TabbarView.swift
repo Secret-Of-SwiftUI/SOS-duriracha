@@ -8,6 +8,18 @@
 import SwiftUI
 
 struct TabbarView: View {
+    
+    // MARK: - init
+    
+    init() {
+        let appearance = UITabBarAppearance()
+        appearance.backgroundEffect = UIBlurEffect(style: .systemUltraThinMaterial)
+        appearance.backgroundColor = UIColor(Color.black.opacity(0.2))
+
+        UITabBar.appearance().standardAppearance = appearance
+        UITabBar.appearance().scrollEdgeAppearance = appearance
+    }
+    
     var body: some View {
         TabView {
             ListenNowView()
@@ -47,6 +59,7 @@ struct TabbarView: View {
                 }
                 .tag(3)
         }
+        .accentColor(.purple)
     }
 }
 
