@@ -20,6 +20,10 @@
 		B531994E280E4F8C00016246 /* RecentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B531994D280E4F8C00016246 /* RecentView.swift */; };
 		B5319950280E516E00016246 /* Recent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B531994F280E516E00016246 /* Recent.swift */; };
 		B5319952280E528000016246 /* RecentScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5319951280E528000016246 /* RecentScrollView.swift */; };
+		B5319954280E5C4400016246 /* FeaturedChannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5319953280E5C4400016246 /* FeaturedChannelView.swift */; };
+		B5319957280E5E2200016246 /* FeaturedChannelsScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5319956280E5E2200016246 /* FeaturedChannelsScrollView.swift */; };
+		B5319959280E5E5F00016246 /* ChannelInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5319958280E5E5F00016246 /* ChannelInfo.swift */; };
+		B531995D280E845A00016246 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B531995C280E845A00016246 /* View+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		B531994D280E4F8C00016246 /* RecentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentView.swift; sourceTree = "<group>"; };
 		B531994F280E516E00016246 /* Recent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recent.swift; sourceTree = "<group>"; };
 		B5319951280E528000016246 /* RecentScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentScrollView.swift; sourceTree = "<group>"; };
+		B5319953280E5C4400016246 /* FeaturedChannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedChannelView.swift; sourceTree = "<group>"; };
+		B5319956280E5E2200016246 /* FeaturedChannelsScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedChannelsScrollView.swift; sourceTree = "<group>"; };
+		B5319958280E5E5F00016246 /* ChannelInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelInfo.swift; sourceTree = "<group>"; };
+		B531995C280E845A00016246 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,7 @@
 		B5319929280E078500016246 /* Podcast */ = {
 			isa = PBXGroup;
 			children = (
+				B531995A280E844A00016246 /* Global */,
 				B531994A280E159200016246 /* Models */,
 				B531993A280E0A2600016246 /* Screens */,
 				B531992E280E078500016246 /* Assets.xcassets */,
@@ -121,6 +130,8 @@
 				B5319947280E154B00016246 /* FeaturedScrollView.swift */,
 				B531994D280E4F8C00016246 /* RecentView.swift */,
 				B5319951280E528000016246 /* RecentScrollView.swift */,
+				B5319953280E5C4400016246 /* FeaturedChannelView.swift */,
+				B5319956280E5E2200016246 /* FeaturedChannelsScrollView.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -130,8 +141,25 @@
 			children = (
 				B531994B280E15A200016246 /* Featured.swift */,
 				B531994F280E516E00016246 /* Recent.swift */,
+				B5319958280E5E5F00016246 /* ChannelInfo.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		B531995A280E844A00016246 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				B531995B280E844F00016246 /* Extension */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		B531995B280E844F00016246 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B531995C280E845A00016246 /* View+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,9 +237,13 @@
 				B5319939280E0A2100016246 /* TabbarView.swift in Sources */,
 				B5319942280E0E8300016246 /* SectionHeaderView.swift in Sources */,
 				B531993C280E0AD000016246 /* BrowseView.swift in Sources */,
+				B5319959280E5E5F00016246 /* ChannelInfo.swift in Sources */,
 				B5319952280E528000016246 /* RecentScrollView.swift in Sources */,
+				B531995D280E845A00016246 /* View+Extension.swift in Sources */,
 				B5319945280E117200016246 /* FeaturedView.swift in Sources */,
 				B531992B280E078500016246 /* PodcastApp.swift in Sources */,
+				B5319957280E5E2200016246 /* FeaturedChannelsScrollView.swift in Sources */,
+				B5319954280E5C4400016246 /* FeaturedChannelView.swift in Sources */,
 				B531994E280E4F8C00016246 /* RecentView.swift in Sources */,
 				B5319950280E516E00016246 /* Recent.swift in Sources */,
 				B5319948280E154B00016246 /* FeaturedScrollView.swift in Sources */,

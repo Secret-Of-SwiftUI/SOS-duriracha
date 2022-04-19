@@ -9,10 +9,6 @@ import SwiftUI
 
 struct FeaturedScrollView: View {
     
-    private enum Size {
-        static let spacing = 20.0 * 2
-    }
-    
     // MARK: - properties
     
     let dummyCells: [Featured] = dummyFeatured

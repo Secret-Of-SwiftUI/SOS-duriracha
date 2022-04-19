@@ -20,6 +20,9 @@ struct BrowseView: View {
                 
                 RecentScrollView()
                     .listRowInsets(EdgeInsets())
+                
+                FeaturedChannelsScrollView()
+                    .listRowInsets(EdgeInsets())
             }
             .listStyle(PlainListStyle())
             .environment(\.defaultMinListRowHeight, 300)
