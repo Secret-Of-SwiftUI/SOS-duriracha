@@ -19,6 +19,7 @@ struct FeaturedView: View {
     var body: some View {
         VStack {
             SectionHeaderView()
+                .padding(.horizontal, 5)
             
             VStack(alignment: .leading, spacing: 0) {
                 Text(featureTitle)
@@ -33,10 +34,13 @@ struct FeaturedView: View {
                     .foregroundColor(.gray)
                     .font(.title3)
                 
+                Spacer()
+                    .frame(height: 8)
+                
                 Image(mainImage)
                     .resizable()
                     .scaledToFit()
-                    .cornerRadius(15)
+                    .cornerRadius(10)
                     .frame(height: 180)
             }
         }

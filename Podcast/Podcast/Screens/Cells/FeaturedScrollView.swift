@@ -19,21 +19,16 @@ struct FeaturedScrollView: View {
     
     var body: some View {
         GeometryReader { proxy in
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: Size.spacing) {
-                    ForEach(dummyCells.indices){ index in
-                        FeaturedView(featureTitle: dummyCells[index].featureTitle,
-                                     title: dummyCells[index].title,
-                                     subtitle: dummyCells[index].subtitle,
-                                     mainImage: dummyCells[index].mainImage)
-                    }
-                    .frame(width: proxy.size.width - Size.spacing)
+            TabView {
+                ForEach(dummyCells.indices){ index in
+                    FeaturedView(featureTitle: dummyCells[index].featureTitle,
+                                 title: dummyCells[index].title,
+                                 subtitle: dummyCells[index].subtitle,
+                                 mainImage: dummyCells[index].mainImage)
                 }
-                .padding(.horizontal, 20)
             }
-        }
-        .onAppear {
-            UIScrollView.appearance().isPagingEnabled = true
+            .frame(width: UIScreen.main.bounds.size.width)
+            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
         }
     }
 }

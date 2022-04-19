@@ -22,7 +22,7 @@ struct SectionHeaderView: View {
         VStack {
             Rectangle()
                 .frame(height: 1)
-                .foregroundColor(Color(uiColor: UIColor.systemGray6))
+                .foregroundColor(Color(uiColor: .systemGray4))
             
             HStack {
                 if let title = title {

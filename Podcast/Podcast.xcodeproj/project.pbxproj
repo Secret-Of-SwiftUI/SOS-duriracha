@@ -17,6 +17,9 @@
 		B5319945280E117200016246 /* FeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5319944280E117200016246 /* FeaturedView.swift */; };
 		B5319948280E154B00016246 /* FeaturedScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5319947280E154B00016246 /* FeaturedScrollView.swift */; };
 		B531994C280E15A200016246 /* Featured.swift in Sources */ = {isa = PBXBuildFile; fileRef = B531994B280E15A200016246 /* Featured.swift */; };
+		B531994E280E4F8C00016246 /* RecentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B531994D280E4F8C00016246 /* RecentView.swift */; };
+		B5319950280E516E00016246 /* Recent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B531994F280E516E00016246 /* Recent.swift */; };
+		B5319952280E528000016246 /* RecentScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5319951280E528000016246 /* RecentScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		B5319944280E117200016246 /* FeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedView.swift; sourceTree = "<group>"; };
 		B5319947280E154B00016246 /* FeaturedScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedScrollView.swift; sourceTree = "<group>"; };
 		B531994B280E15A200016246 /* Featured.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Featured.swift; sourceTree = "<group>"; };
+		B531994D280E4F8C00016246 /* RecentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentView.swift; sourceTree = "<group>"; };
+		B531994F280E516E00016246 /* Recent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recent.swift; sourceTree = "<group>"; };
+		B5319951280E528000016246 /* RecentScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +119,8 @@
 			children = (
 				B5319944280E117200016246 /* FeaturedView.swift */,
 				B5319947280E154B00016246 /* FeaturedScrollView.swift */,
+				B531994D280E4F8C00016246 /* RecentView.swift */,
+				B5319951280E528000016246 /* RecentScrollView.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -121,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				B531994B280E15A200016246 /* Featured.swift */,
+				B531994F280E516E00016246 /* Recent.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -200,8 +209,11 @@
 				B5319939280E0A2100016246 /* TabbarView.swift in Sources */,
 				B5319942280E0E8300016246 /* SectionHeaderView.swift in Sources */,
 				B531993C280E0AD000016246 /* BrowseView.swift in Sources */,
+				B5319952280E528000016246 /* RecentScrollView.swift in Sources */,
 				B5319945280E117200016246 /* FeaturedView.swift in Sources */,
 				B531992B280E078500016246 /* PodcastApp.swift in Sources */,
+				B531994E280E4F8C00016246 /* RecentView.swift in Sources */,
+				B5319950280E516E00016246 /* Recent.swift in Sources */,
 				B5319948280E154B00016246 /* FeaturedScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
