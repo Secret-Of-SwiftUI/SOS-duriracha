@@ -21,5 +21,6 @@ var dummyRecent: [Recent] = [
     Recent(title: "[지방령]지방여성이 쓰는 일의 연대기", author: "지방령"),
     Recent(title: "GOT7 영재의 친한친구", author: "MBC"),
     Recent(title: "WeCrashed", author: "Wondery"),
+    Recent(title: "커튼콜", author: "SBS NEWS"),
     Recent(title: "커튼콜", author: "SBS NEWS")
 ]

@@ -23,10 +23,15 @@ struct TopEpisodesView: View {
             
             GeometryReader { proxy in
                 TabView {
-                    VStack {
-                        EpisodesView(title: "357회 - 맹신주의\n게으른자들을 위한 자가관리", author: "Wedensday", rank: 1)
-                        EpisodesView(title: "357회 - 맹신주의\n게으른자들을 위한 자가관리", author: "Wedensday", rank: 1)
-                        EpisodesView(title: "357회 - 맹신주의\n게으른자들을 위한 자가관리", author: "Wedensday", rank: 1)
+                    ForEach(dummyCells.indices){ index in
+                        if index % 3 == 0 {
+                            VStack {
+                                EpisodesView(title: dummyCells[index].title, author: dummyCells[index].author, rank: index)
+                                EpisodesView(title: dummyCells[index + 1].title, author: dummyCells[index + 1].author, rank: index + 1)
+                                EpisodesView(title: dummyCells[index + 2].title, author: dummyCells[index + 2].author, rank: index + 2)
+                            }
+                            .padding(.horizontal, 10)
+                        }
                     }
                 }
                 .frame(width: UIScreen.main.bounds.size.width)

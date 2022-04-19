@@ -28,7 +28,7 @@ struct EpisodesView: View {
             
             Text("\(rank)")
                 .foregroundColor(.white)
-                .font(.footnote)
+                .font(.system(size: 15, weight: .bold, design: .default))
             
             Spacer()
                 .frame(width: 20)
