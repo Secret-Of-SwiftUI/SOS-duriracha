@@ -38,7 +38,7 @@ struct FeaturedChannelView: View {
             }
         }
         .frame(width: 250, height: 350)
-        .clipped()
+        .cornerRadius(10)
     }
 }
 
