@@ -26,7 +26,7 @@ struct EpisodesView: View {
             Spacer()
                 .frame(width: 20)
             
-            Text("\(rank)")
+            Text("\(rank + 1)")
                 .foregroundColor(.white)
                 .font(.system(size: 15, weight: .bold, design: .default))
             
