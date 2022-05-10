@@ -17,6 +17,7 @@ struct BrowseView: View {
                 FeaturedScrollView()
                     .listRowInsets(EdgeInsets())
                     .padding(.bottom, 25)
+                    .listRowSeparator(.hidden)
                 
                 RecentScrollView()
                     .listRowInsets(EdgeInsets())
