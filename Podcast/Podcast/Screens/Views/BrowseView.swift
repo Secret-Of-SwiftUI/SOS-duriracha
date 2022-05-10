@@ -27,6 +27,8 @@ struct BrowseView: View {
                 
                 TopEpisodesView()
                     .listRowInsets(EdgeInsets())
+                
+                Spacer()
             }
             .listStyle(PlainListStyle())
             .environment(\.defaultMinListRowHeight, 300)
