@@ -28,6 +28,7 @@
 		B5319961280E897600016246 /* EpisodesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5319960280E897600016246 /* EpisodesView.swift */; };
 		B5319963280E98DF00016246 /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5319962280E98DF00016246 /* PlayingView.swift */; };
 		B5DE033D282D43BF00EF19D5 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE033C282D43BF00EF19D5 /* PlayerView.swift */; };
+		B5DE033F282D468E00EF19D5 /* MusicSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE033E282D468E00EF19D5 /* MusicSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		B5319960280E897600016246 /* EpisodesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesView.swift; sourceTree = "<group>"; };
 		B5319962280E98DF00016246 /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingView.swift; sourceTree = "<group>"; };
 		B5DE033C282D43BF00EF19D5 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		B5DE033E282D468E00EF19D5 /* MusicSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			children = (
 				B5319941280E0E8300016246 /* SectionHeaderView.swift */,
 				B5319962280E98DF00016246 /* PlayingView.swift */,
+				B5DE033E282D468E00EF19D5 /* MusicSlider.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5DE033F282D468E00EF19D5 /* MusicSlider.swift in Sources */,
 				B531993E280E0AF400016246 /* ListenNowView.swift in Sources */,
 				B531994C280E15A200016246 /* Featured.swift in Sources */,
 				B5319939280E0A2100016246 /* TabbarView.swift in Sources */,
