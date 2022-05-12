@@ -14,10 +14,16 @@ struct PlayerView: View {
     }
     
     var body: some View {
-        Image("cat")
-            .resizable()
-            .frame(width: UIScreen.main.bounds.size.width - Size.spacing * 2, height: UIScreen.main.bounds.size.width - Size.spacing * 2)
-            .cornerRadius(15)
+        VStack {
+            Image("cat")
+                .resizable()
+                .frame(width: UIScreen.main.bounds.size.width - Size.spacing * 2, height: UIScreen.main.bounds.size.width - Size.spacing * 2)
+                .cornerRadius(15)
+            
+            MusicSlider()
+                .padding(.top, 30)
+                .padding(.horizontal, 30)
+        }
     }
 }
 

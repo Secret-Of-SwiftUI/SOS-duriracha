@@ -18,17 +18,21 @@ struct MusicSlider: View {
     @State private var playTime: Double = 150
     
     var body: some View {
-        VStack {
+        VStack(spacing: -10) {
             Slider(value: $playTime, in: 0...Size.maxTime, step: 1)
-                .tint(.gray)
+                .tint(Color.init(uiColor: .systemGray5))
                 .colorMultiply(.gray)
             
             HStack {
                 Text(calculatePlayTime(with: playTime))
+                    .foregroundColor(.gray)
+                    .fontWeight(.bold)
                 
                 Spacer()
                 
-                Text(calculatePlayTime(with: Size.maxTime))
+                Text("-\(calculatePlayTime(with: Size.maxTime - playTime))")
+                    .foregroundColor(.gray)
+                    .fontWeight(.bold)
             }
         }
     }
@@ -37,10 +41,10 @@ struct MusicSlider: View {
 extension MusicSlider {
     private func calculatePlayTime(with time: CGFloat) -> String {
         let min = Int(time / 60)
-        let sec = Int(time.truncatingRemainder(dividingBy: 60))
+        let sec = String(Int(time.truncatingRemainder(dividingBy: 60)))
         var timeString = ""
         
-        timeString = (sec == 0) ? "\(min):00" : "\(min):\(sec)"
+        timeString = (sec.count == 1) ? "\(min):0\(sec)" : "\(min):\(sec)"
         
         return timeString
     }
