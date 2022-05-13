@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct BrowseView: View {
+    
+    // MARK: - property
+    
+    @State var presentingModal = false
+    
     var body: some View {
         ZStack {
             Color.black
@@ -35,12 +40,15 @@ struct BrowseView: View {
                 Spacer()
             }
             .listStyle(PlainListStyle())
-//            .environment(\.defaultMinListRowHeight, 300)
             
             VStack {
                 Spacer()
                 
                 PlayingView()
+                    .onTapGesture {
+                        self.presentingModal = true
+                    }
+                    .sheet(isPresented: $presentingModal) { PlayerView(presentedAsModal: self.$presentingModal) }
             }
         }
         .navigationTitle("Browse")

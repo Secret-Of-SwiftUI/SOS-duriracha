@@ -13,10 +13,14 @@ struct PlayerView: View {
         static let spacing: CGFloat = 80
     }
     
+    // MARK: - property
+    
+    @Binding var presentedAsModal: Bool
+    
     var body: some View {
         ScrollView {
             ZStack {
-                Color(uiColor: .black.withAlphaComponent(0.9))
+                Color(uiColor: UIColor(red: 28/255, green: 28/255, blue: 30/255, alpha: 1))
                 
                 VStack {
                     Spacer()
@@ -73,11 +77,5 @@ extension PlayerView {
                 .padding(.horizontal, 10)
                 .lineLimit(1)
         }
-    }
-}
-
-struct PlayerView_Previews: PreviewProvider {
-    static var previews: some View {
-        PlayerView()
     }
 }

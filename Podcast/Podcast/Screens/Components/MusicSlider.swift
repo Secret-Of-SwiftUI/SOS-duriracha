@@ -20,18 +20,20 @@ struct MusicSlider: View {
     var body: some View {
         VStack(spacing: -10) {
             Slider(value: $playTime, in: 0...Size.maxTime, step: 1)
-                .tint(Color.init(uiColor: .systemGray5))
-                .colorMultiply(.gray)
+                .tint(Color.init(uiColor: .systemGray3))
+                .foregroundColor(Color.init(uiColor: .systemGray3))
             
             HStack {
                 Text(calculatePlayTime(with: playTime))
                     .foregroundColor(.gray)
+                    .font(.caption)
                     .fontWeight(.bold)
                 
                 Spacer()
                 
                 Text("-\(calculatePlayTime(with: Size.maxTime - playTime))")
                     .foregroundColor(.gray)
+                    .font(.caption)
                     .fontWeight(.bold)
             }
         }
