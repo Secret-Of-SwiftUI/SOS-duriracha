@@ -29,6 +29,7 @@
 		B5319963280E98DF00016246 /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5319962280E98DF00016246 /* PlayingView.swift */; };
 		B5DE033D282D43BF00EF19D5 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE033C282D43BF00EF19D5 /* PlayerView.swift */; };
 		B5DE033F282D468E00EF19D5 /* MusicSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE033E282D468E00EF19D5 /* MusicSlider.swift */; };
+		B5DE0341282E286300EF19D5 /* PlayControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE0340282E286300EF19D5 /* PlayControlView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		B5319962280E98DF00016246 /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingView.swift; sourceTree = "<group>"; };
 		B5DE033C282D43BF00EF19D5 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		B5DE033E282D468E00EF19D5 /* MusicSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSlider.swift; sourceTree = "<group>"; };
+		B5DE0340282E286300EF19D5 /* PlayControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayControlView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				B5319941280E0E8300016246 /* SectionHeaderView.swift */,
 				B5319962280E98DF00016246 /* PlayingView.swift */,
 				B5DE033E282D468E00EF19D5 /* MusicSlider.swift */,
+				B5DE0340282E286300EF19D5 /* PlayControlView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				B531992B280E078500016246 /* PodcastApp.swift in Sources */,
 				B531995F280E856E00016246 /* TopEpisodesView.swift in Sources */,
 				B5319957280E5E2200016246 /* FeaturedChannelsScrollView.swift in Sources */,
+				B5DE0341282E286300EF19D5 /* PlayControlView.swift in Sources */,
 				B5319954280E5C4400016246 /* FeaturedChannelView.swift in Sources */,
 				B531994E280E4F8C00016246 /* RecentView.swift in Sources */,
 				B5319950280E516E00016246 /* Recent.swift in Sources */,

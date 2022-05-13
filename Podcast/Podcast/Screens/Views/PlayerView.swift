@@ -29,6 +29,9 @@ struct PlayerView: View {
                 
                 titleView
                     .padding(.top)
+                
+                PlayControlView()
+                    .padding(.top, 40)
             }
         }
     }
