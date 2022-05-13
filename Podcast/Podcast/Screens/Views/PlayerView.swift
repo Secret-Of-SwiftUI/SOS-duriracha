@@ -14,26 +14,48 @@ struct PlayerView: View {
     }
     
     var body: some View {
-        ZStack {
-            Color(uiColor: .black.withAlphaComponent(0.9))
-            
-            VStack {
-                Image("cat")
-                    .resizable()
-                    .frame(width: UIScreen.main.bounds.size.width - Size.spacing * 2, height: UIScreen.main.bounds.size.width - Size.spacing * 2)
-                    .cornerRadius(15)
+        ScrollView {
+            ZStack {
+                Color(uiColor: .black.withAlphaComponent(0.9))
                 
-                MusicSlider()
-                    .padding(.top, 30)
-                    .padding(.horizontal, 30)
-                
-                titleView
-                    .padding(.top)
-                
-                PlayControlView()
-                    .padding(.top, 40)
+                VStack {
+                    Spacer()
+                        .frame(height: 100)
+                    
+                    Image("cat")
+                        .resizable()
+                        .frame(width: UIScreen.main.bounds.size.width - Size.spacing * 2, height: UIScreen.main.bounds.size.width - Size.spacing * 2)
+                        .cornerRadius(15)
+                    
+                    MusicSlider()
+                        .padding(.top, 30)
+                        .padding(.horizontal, 30)
+                    
+                    titleView
+                        .padding(.top)
+                    
+                    PlayControlView()
+                        .padding(.top, 40)
+                    
+                    VolumeSlider()
+                        .padding(.top, 50)
+                        .padding(.horizontal, 20)
+                    
+                    ToolBar()
+                        .padding(.vertical, 40)
+                        .padding(.horizontal, 25)
+                    
+                    Divider()
+                    
+                    Button(action: {
+                        
+                    }, label: {
+                        Text("뭐야")
+                    })
+                }
             }
         }
+        .ignoresSafeArea(.all)
     }
 }
 

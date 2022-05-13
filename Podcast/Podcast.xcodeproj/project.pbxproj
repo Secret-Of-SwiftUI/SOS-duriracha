@@ -30,6 +30,8 @@
 		B5DE033D282D43BF00EF19D5 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE033C282D43BF00EF19D5 /* PlayerView.swift */; };
 		B5DE033F282D468E00EF19D5 /* MusicSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE033E282D468E00EF19D5 /* MusicSlider.swift */; };
 		B5DE0341282E286300EF19D5 /* PlayControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE0340282E286300EF19D5 /* PlayControlView.swift */; };
+		B5DE0343282E2C4700EF19D5 /* VolumeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE0342282E2C4700EF19D5 /* VolumeSlider.swift */; };
+		B5DE0345282E306D00EF19D5 /* ToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE0344282E306D00EF19D5 /* ToolBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +59,8 @@
 		B5DE033C282D43BF00EF19D5 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		B5DE033E282D468E00EF19D5 /* MusicSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSlider.swift; sourceTree = "<group>"; };
 		B5DE0340282E286300EF19D5 /* PlayControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayControlView.swift; sourceTree = "<group>"; };
+		B5DE0342282E2C4700EF19D5 /* VolumeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeSlider.swift; sourceTree = "<group>"; };
+		B5DE0344282E306D00EF19D5 /* ToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +138,8 @@
 				B5319962280E98DF00016246 /* PlayingView.swift */,
 				B5DE033E282D468E00EF19D5 /* MusicSlider.swift */,
 				B5DE0340282E286300EF19D5 /* PlayControlView.swift */,
+				B5DE0342282E2C4700EF19D5 /* VolumeSlider.swift */,
+				B5DE0344282E306D00EF19D5 /* ToolBar.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -270,6 +276,8 @@
 				B531993E280E0AF400016246 /* ListenNowView.swift in Sources */,
 				B531994C280E15A200016246 /* Featured.swift in Sources */,
 				B5319939280E0A2100016246 /* TabbarView.swift in Sources */,
+				B5DE0343282E2C4700EF19D5 /* VolumeSlider.swift in Sources */,
+				B5DE0345282E306D00EF19D5 /* ToolBar.swift in Sources */,
 				B5319942280E0E8300016246 /* SectionHeaderView.swift in Sources */,
 				B531993C280E0AD000016246 /* BrowseView.swift in Sources */,
 				B5319959280E5E5F00016246 /* ChannelInfo.swift in Sources */,
