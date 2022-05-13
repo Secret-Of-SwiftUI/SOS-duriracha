@@ -10,7 +10,7 @@ import SwiftUI
 struct PlayerView: View {
     
     private enum Size {
-        static let spacing: CGFloat = 80
+        static let spacing: CGFloat = 70
     }
     
     // MARK: - property
@@ -24,15 +24,15 @@ struct PlayerView: View {
                 
                 VStack {
                     Spacer()
-                        .frame(height: 100)
+                        .frame(height: 70)
                     
                     Image("cat")
                         .resizable()
                         .frame(width: UIScreen.main.bounds.size.width - Size.spacing * 2, height: UIScreen.main.bounds.size.width - Size.spacing * 2)
-                        .cornerRadius(15)
+                        .cornerRadius(10)
                     
                     MusicSlider()
-                        .padding(.top, 30)
+                        .padding(.top, 40)
                         .padding(.horizontal, 30)
                     
                     titleView
@@ -60,6 +60,9 @@ struct PlayerView: View {
             }
         }
         .ignoresSafeArea(.all)
+        .onDisappear(perform: {
+            self.presentedAsModal = false
+        })
     }
 }
 
