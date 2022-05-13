@@ -14,15 +14,39 @@ struct PlayerView: View {
     }
     
     var body: some View {
-        VStack {
-            Image("cat")
-                .resizable()
-                .frame(width: UIScreen.main.bounds.size.width - Size.spacing * 2, height: UIScreen.main.bounds.size.width - Size.spacing * 2)
-                .cornerRadius(15)
+        ZStack {
+            Color(uiColor: .black.withAlphaComponent(0.9))
             
-            MusicSlider()
-                .padding(.top, 30)
-                .padding(.horizontal, 30)
+            VStack {
+                Image("cat")
+                    .resizable()
+                    .frame(width: UIScreen.main.bounds.size.width - Size.spacing * 2, height: UIScreen.main.bounds.size.width - Size.spacing * 2)
+                    .cornerRadius(15)
+                
+                MusicSlider()
+                    .padding(.top, 30)
+                    .padding(.horizontal, 30)
+                
+                titleView
+                    .padding(.top)
+            }
+        }
+    }
+}
+
+extension PlayerView {
+    var titleView: some View {
+        VStack {
+            Text("Cat is Cute")
+                .font(.title2)
+                .fontWeight(.bold)
+                .foregroundColor(.white)
+            
+            Text("All Ears English Podcast - May 2, 2022")
+                .font(.title2)
+                .foregroundColor(.purple)
+                .padding(.horizontal, 10)
+                .lineLimit(1)
         }
     }
 }
